@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Drop App </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text">
+    <h2>Upload files</h2>
+    <p>Drag and drop your files here</p>
+    </div>
+    <div class="DragArea">
+        <img src="uplode.png" class="Upload">
+        <br>
+        <span>Click here to drap your files</span>
+        <input type="file" class="fileInput" hidden accept="image/*">
+        <br>
+        <span>Only JPG, PNG, GIF allowed</span>
+    </div>
+    <div id="preview"></div>
+<div id="progress-container">
+  <div id="progress-bar"></div>
+</div>
+<button class="btn">Clear</button>
+</body>
+<script src="Drop.js"></script>
+</html>
